@@ -1,0 +1,160 @@
+.head-bot {
+  display: none;
+}
+
+section {
+  margin-top: 140px;
+}
+
+.try-step-1 {
+  background: #1d252c;
+  border-radius: 16px;
+  text-align: center;
+  margin: 55px 0px 95px 0px;
+  padding: 175px 0px 168px 0px;
+}
+.try-step-1 h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-bottom: 64px;
+  text-transform: uppercase;
+}
+.try-step-1 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 60px;
+}
+.try-step-1 a {
+  text-decoration: none;
+}
+.try-step-1 button {
+  background: transparent;
+  border: none;
+  margin-bottom: 63px;
+}
+
+.try-step-2 {
+  background: #1d252c;
+  border-radius: 16px;
+  text-align: center;
+  margin: 55px 0px 95px 0px;
+  padding: 104px 0px 64px 0px;
+}
+.try-step-2 p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.try-step-2 .btn-next {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 16px 64px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 32px;
+}
+.try-step-2 .btn-next:hover {
+  background: #fff;
+  color: #000000;
+}
+.try-step-2 .return {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 10px 64px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 32px;
+}
+.try-step-2 .return:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 !important;
+  }
+  section {
+    margin-top: 58px;
+  }
+  .try-step-1 {
+    height: 100vh;
+    margin: 0;
+    padding: 30% 25px 52px;
+    border-radius: 0px;
+  }
+  .try-step-1 div {
+    display: block;
+    margin-bottom: 4em;
+  }
+  .try-step-1 h2 {
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 70px;
+  }
+  .try-step-1 p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 45px;
+    margin-top: 0;
+  }
+  .try-step-1 a {
+    padding: 0;
+    margin-bottom: 80px;
+  }
+  .try-step-1 a img {
+    width: 29%;
+    padding: 0 10px;
+  }
+  .try-step-2 {
+    height: 100vh;
+    margin: 0;
+    padding: 30% 25px 52px;
+    border-radius: 0px;
+  }
+  .try-step-2 img {
+    max-width: 100%;
+    width: 80%;
+  }
+  .try-step-2 p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+  }
+  .try-step-2 .btn {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 4px 75px;
+  }
+  .try-step-2 .btn-next {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 4px 65px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+}/*# sourceMappingURL=unlucky.css.map */

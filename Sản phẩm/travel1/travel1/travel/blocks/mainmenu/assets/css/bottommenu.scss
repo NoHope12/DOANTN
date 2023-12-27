@@ -1,0 +1,50 @@
+.menu_bottom_mystar {
+    h3 {
+        font-size: 20px;
+        display: block;
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 25px;
+        padding-bottom: 16px;
+        margin-bottom: 10px;
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: '';
+            width: 32px;
+            border: 1px solid #ffbb00;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+    ul.megamenu-bottom {
+        li {
+            font-size: 14px;
+            color: #333333;
+            line-height: 30px;
+
+            a {
+                color: #cccccc;
+                position: relative;
+                padding-left: 12px;
+
+                &:before {
+                    position: absolute;
+                    content: '';
+                    padding: 2px;
+                    border-radius: 50%;
+                    border: 1px solid #ffbb00;
+                    top: 5px;
+                    left: 0;
+                }
+            }
+            &:hover {
+					a {
+						color: #ffbb00;
+					}
+				}
+        }
+    }
+}

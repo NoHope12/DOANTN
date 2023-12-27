@@ -1,0 +1,7 @@
+User-agent: AhrefsBot
+Crawl-delay: 10
+disallow: *order=*
+disallow: *status=*
+disallow: /tim-kiem/
+disallow: /so-sanh/
+Sitemap:  /sitemap.xml

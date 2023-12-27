@@ -1,0 +1,72 @@
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+}
+.mainmenu-left{
+	float: left;
+	width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ececec;
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+	.block_title{
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 25px;
+		margin: 0;
+		margin-bottom: 10px;
+		a{
+			&:hover{
+				color: #ffbb00;
+			}
+		}
+	}
+	ul{
+		li{
+			a{
+				position: relative;
+				padding-right: 15px;
+				i{
+					position: absolute;
+					right: 0px;
+					top: 5px;
+				}
+				display: block;
+				font-size: 13px;
+				line-height: 25px;
+				color: #777777;
+				&:hover{
+					color: #ffbb00;
+				}
+			}
+		}
+	}
+}
+.menu_main {
+	float: left;
+
+	li {
+		float: left;
+		a {
+			display: block;
+			font-size: 14px;
+			line-height: 51px;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+		&:hover{
+			a {
+				color: #ffbd06;
+			}
+		}
+	}
+
+	li.active {
+		a {
+			color: #ffbd06;
+		}
+	}
+}
+/* -----END Menu Top------- */

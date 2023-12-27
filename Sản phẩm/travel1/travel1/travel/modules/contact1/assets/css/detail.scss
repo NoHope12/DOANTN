@@ -1,0 +1,132 @@
+body{
+    .container {
+        max-width: 1140px !important;
+    }
+}
+.main-column-content {
+    width:66.66667% !important;
+    .news_detail {
+        margin-top: 60px;
+        .main-image {
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+        .news-title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+
+            /* Mau 1 */
+
+            color: #003a70;
+        }
+        .time-share-in-box {
+            ul {
+                li {
+                    margin-right: 30px;
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+                .time-create {
+                    color: #e40375;
+                    font-size: 14px;
+                }
+            }
+        }
+        .contents-summary {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 20px;
+            /* or 150% */
+
+            /* Gray */
+
+            color: #262626;
+        }
+
+        .description {
+            margin-bottom: 30px;
+            font-size: 16px;
+            line-height: 25px;
+            iframe,
+            img {
+                max-width: 100% !important;
+                height: auto !important;
+                margin: 0 auto;
+                display: block;
+            }
+            p {
+                margin-bottom: 14px;
+            }
+        }
+        .box-related-new {
+            .title-module-related {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 37px;
+                /* identical to box height */
+                text-transform: uppercase;
+                /* Mau 1 */
+                color: #003a70;
+                border-bottom: 1px solid #dddddd;
+                margin-bottom: 30px;
+                span {
+                    display: inline-block;
+                    padding-bottom: 10px;
+                    border-bottom: 2px solid #e40375;
+                }
+            }
+            .new-related {
+                .list-content-new {
+                    margin-bottom: 24px;
+                    padding-bottom: 1em;
+                    padding-top: 10px;
+                    figure {
+                        max-height: 145px;
+                        margin-bottom: 20px;
+                        border-radius: 20px;
+                        overflow: hidden;
+                        @media (max-width: 767px) {
+                            max-height: unset;
+                        }
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .new-item {
+                        text-decoration: unset;
+                        .title {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 24px;
+                            /* or 133% */
+                            /* Mau 1 */
+                            color: #003a70;
+                        }
+                    }
+                    .time-new {
+                        color: #e40375;
+                        font-size: 14px;
+                    }
+                    .summary-new-blog {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 20px;
+                        /* or 125% */
+
+                        color: #222222;
+                    }
+                }
+            }
+        }
+    }
+}
+.main-column-right{
+    width: 33.33333% !important;
+}
